@@ -4,68 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42b539be-056a-493e-a2d9-ec25cf03714a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/controller/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/service/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/omarmohseni/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/dto/OrderLineItemRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/dto/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/model/OrderLineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/omarmohseni/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/omarmohseni/microservices/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/omarmohseni/microservices/productservice/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/omarmohseni/microservices/productservice/dto/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/omarmohseni/microservices/productservice/dto/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/omarmohseni/microservices/productservice/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/omarmohseni/microservices/productservice/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/omarmohseni/microservices/productservice/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/com/omarmohseni/microservices/productservice/ProductServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="efe22334-9e2e-4e24-8e03-19f0cd812b33" name="00002 - Warehouse Application - Check if a List of products are in the stock inventory" comment="Create InventoryResponse DTO for checking if products that are in the current order are in the stock">
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/dto/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/dto/InventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/omarmohseni/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/omarmohseni/orderservice/service/OrderService.java" afterDir="false" />
     </list>
+    <list id="42b539be-056a-493e-a2d9-ec25cf03714a" name="Changes" comment="00001 - Warehouse Application - Create Orders, Products and Inventory microservices" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +66,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="microservices" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -172,6 +122,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "nodejs_package_manager_path": "npm",
@@ -185,6 +136,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.omarmohseni.orderservice.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.omarmohseni.orderservice.dto" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -202,7 +156,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.microservices [build]">
+  <component name="RunManager" selected="Gradle.microservices [bootRun]">
     <configuration name="microservices [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -308,6 +262,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="InventoryServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservices.inventory-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.omarmohseni.inventoryservice.InventoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="inventory-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.omarmohseni.inventoryservice.InventoryServiceApplication" />
@@ -315,9 +276,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservices.order-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.omarmohseni.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.omarmohseni.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservices.product-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.omarmohseni.microservices.productservice.ProductServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -331,8 +306,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.microservices [build]" />
         <item itemvalue="Gradle.microservices [bootRun]" />
+        <item itemvalue="Gradle.microservices [build]" />
         <item itemvalue="Gradle.microservices [projects]" />
         <item itemvalue="Gradle.microservices [clean]" />
         <item itemvalue="Gradle.order-service [:clean]" />
@@ -346,13 +321,22 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="42b539be-056a-493e-a2d9-ec25cf03714a" name="Changes" comment="" />
+      <changelist id="efe22334-9e2e-4e24-8e03-19f0cd812b33" name="00001 - Warehouse Application - Create Orders, Products and Inventory microservices" comment="Create Orders, Products and Inventory microservices each module follows the model-repository-service-controller pattern. " />
       <created>1666453341395</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666453341395</updated>
       <workItem from="1666453346174" duration="8745000" />
-      <workItem from="1666512402275" duration="2979000" />
+      <workItem from="1666512402275" duration="5664000" />
     </task>
+    <task id="LOCAL-00001" summary="00001 - Warehouse Application - Create Orders, Products and Inventory microservices">
+      <created>1666515782006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666515782006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,11 +347,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="00001 - Warehouse Application - Create Orders, Products and Inventory microservices" />
+    <MESSAGE value="Create InventoryResponse DTO for checking if products that are in the current order are in the stock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create InventoryResponse DTO for checking if products that are in the current order are in the stock" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
